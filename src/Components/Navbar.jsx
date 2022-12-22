@@ -3,10 +3,6 @@ import {NavLink} from 'react-router-dom';
 
 function FillExample() {
   return (
-    
-
-
-
     <Nav  fill variant="light" bg="light" defaultActiveKey="/home" >
       <Nav.Item>
         <NavLink to="/home" className={"text-decoration-none mt-2 h2"}>Home</NavLink>
@@ -17,7 +13,6 @@ function FillExample() {
       <Nav.Item>
         <NavLink  to="/ContactUs" className={"text-decoration-none mt-2 h2"}>ContactUs</NavLink>
       </Nav.Item>
-     
     </Nav>
    
    
