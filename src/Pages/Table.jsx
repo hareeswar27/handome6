@@ -159,21 +159,21 @@ const FullData = () => {
           type="text"
           name="address"
           required="required"
-          placeholder="Enter an addres..."
+          placeholder="Enter an age"
           onChange={handleAddFormChange}
         />
         <input
           type="text"
           name="phoneNumber"
           required="required"
-          placeholder="Enter a phone number..."
+          placeholder="Enter course"
           onChange={handleAddFormChange}
         />
         <input
           type="text"
           name="email"
           required="required"
-          placeholder="Enter an email..."
+          placeholder="Enter batch"
           onChange={handleAddFormChange}
         />
         <button type="submit">Add</button>

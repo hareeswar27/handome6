@@ -39,3 +39,6 @@
   form * {
     font-size: 28px;
   }
+  input{
+    width: 200px;
+  }
